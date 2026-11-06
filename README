@@ -1,0 +1,75 @@
+Rice Leaf Disease Detection Using CNN
+
+Project Overview
+
+This project focuses on detecting rice leaf diseases using Convolutional Neural Networks (CNN). The model is trained using rice leaf images to classify different types of diseases.
+
+Objectives
+
+- To identify rice leaf diseases using image classification.
+- To build a CNN deep learning model.
+- To train and evaluate the model using image datasets.
+- To predict rice leaf disease from input images.
+
+Dataset
+
+The dataset contains three classes of rice leaf diseases:
+
+- Brown Spot – 40 images
+- Bacterial Leaf Blight – 40 images
+- Leaf Smut – 39 images
+
+Total Images: 119
+
+Technologies Used
+
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- CNN (Convolutional Neural Network)
+- Jupyter Notebook
+
+Project Workflow
+
+1. Import required libraries.
+2. Load the rice leaf image dataset.
+3. Extract and organize the dataset.
+4. Preprocess the images.
+5. Split the dataset into training and validation sets.
+6. Build the CNN model.
+7. Train the model for 10 epochs.
+8. Evaluate the model.
+9. Visualize training and validation accuracy.
+10. Save the trained model.
+
+Model
+
+A Convolutional Neural Network (CNN) is used to classify rice leaf diseases based on image features.
+
+Disease Classes
+
+1. Brown Spot
+2. Bacterial Leaf Blight
+3. Leaf Smut
+
+Results
+
+The model was trained for 10 epochs. Training accuracy, validation accuracy, and validation loss were evaluated.
+
+Output
+
+The project generates disease classification results based on the input rice leaf images.
+
+Conclusion
+
+This project demonstrates how deep learning and CNN can be used for rice leaf disease classification. It helps in identifying different rice leaf diseases through image processing.
+
+Author
+
+HEMALATHA V
+
+Project File
+
+"rice leaf disease cnn.ipynb"
